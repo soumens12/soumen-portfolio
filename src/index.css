@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+a, .btn{
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+:root{
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+  --primary-color:#fec544;
+  --secondary-color:#406cfd;
+  --white-color:#ffffff;
+  --black-color:#000000;
+}
+
