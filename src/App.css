@@ -418,4 +418,18 @@ footer section css
     width: 90%;
     background-size: contain;
   }
+  .heading strong.filltext {
+    font-size: 60px;
+    top: -10%;
+  }
+  .project-list
+  {
+    grid-template-columns: 1fr;
+  }
+  #portfolio .btn-group
+  {
+    width: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
