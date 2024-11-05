@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/soumen-portfolio/static/css/main.0e548bab.css",
+    "main.js": "/soumen-portfolio/static/js/main.4f464adf.js",
+    "static/media/ui5.png": "/soumen-portfolio/static/media/ui5.b6ba7cd4a84e7aa55f47.png",
+    "static/media/boxicons.svg": "/soumen-portfolio/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/profile-pic.png": "/soumen-portfolio/static/media/profile-pic.d8ed6cd2c8e59d1bdb0d.png",
+    "static/media/ui3.png": "/soumen-portfolio/static/media/ui3.5c87cae859c37043f8f6.png",
+    "static/media/ui11.png": "/soumen-portfolio/static/media/ui11.1a1fa3b2ad22700984da.png",
+    "static/media/ui9.png": "/soumen-portfolio/static/media/ui9.fbefb515477361859133.png",
+    "static/media/ui10.png": "/soumen-portfolio/static/media/ui10.0623d9f373b30c720fd0.png",
+    "static/media/graphics.png": "/soumen-portfolio/static/media/graphics.afec6dc9c82e61e04aaf.png",
+    "static/media/uiDesign3.png": "/soumen-portfolio/static/media/uiDesign3.dfec400ce7ab6755cc50.png",
+    "static/media/boxicons.eot": "/soumen-portfolio/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/soumen-portfolio/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/soumen-portfolio/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/uiDesign1.png": "/soumen-portfolio/static/media/uiDesign1.12644cbd567265d93804.png",
+    "static/media/ui1.png": "/soumen-portfolio/static/media/ui1.bec07837ae0e27a7499b.png",
+    "static/media/SoumenSarkar-resume.pdf": "/soumen-portfolio/static/media/SoumenSarkar-resume.c87ce79e5a8ec7f7f370.pdf",
+    "static/media/ui2.png": "/soumen-portfolio/static/media/ui2.49fbdab7d4158556fa43.png",
+    "static/media/reactui.png": "/soumen-portfolio/static/media/reactui.1d5ed6923565812fcd16.png",
+    "static/media/uiDesign4.png": "/soumen-portfolio/static/media/uiDesign4.a10523f91fcde03ea819.png",
+    "static/media/boxicons.woff2": "/soumen-portfolio/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/ui4.png": "/soumen-portfolio/static/media/ui4.9e6baa3dc91884cc8277.png",
+    "static/media/uiDesign2.png": "/soumen-portfolio/static/media/uiDesign2.e97b7e974d4384c939b7.png",
+    "static/media/ui7.png": "/soumen-portfolio/static/media/ui7.c60711b5b804c59a94c3.png",
+    "static/media/ui6.png": "/soumen-portfolio/static/media/ui6.ba286194967ec062540d.png",
+    "static/media/ui8.png": "/soumen-portfolio/static/media/ui8.662d0a433ce5e7d11889.png",
+    "static/media/hero-bg.jpg": "/soumen-portfolio/static/media/hero-bg.93e1357431c9bfd02a36.jpg",
+    "static/media/about-shape.svg": "/soumen-portfolio/static/media/about-shape.032e9c2963e4e333fdb8.svg",
+    "static/media/about-bg-shape.png": "/soumen-portfolio/static/media/about-bg-shape.0f5401ddbf4b438d8648.png",
+    "index.html": "/soumen-portfolio/index.html",
+    "static/media/offcanvas-bg.svg": "/soumen-portfolio/static/media/offcanvas-bg.88aeb9fe284881708dbd.svg",
+    "main.0e548bab.css.map": "/soumen-portfolio/static/css/main.0e548bab.css.map",
+    "main.4f464adf.js.map": "/soumen-portfolio/static/js/main.4f464adf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e548bab.css",
+    "static/js/main.4f464adf.js"
+  ]
+}
