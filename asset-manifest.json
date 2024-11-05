@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/soumen-portfolio/static/css/main.0e548bab.css",
+    "main.css": "/soumen-portfolio/static/css/main.28cc8d42.css",
     "main.js": "/soumen-portfolio/static/js/main.4f464adf.js",
     "static/media/ui5.png": "/soumen-portfolio/static/media/ui5.b6ba7cd4a84e7aa55f47.png",
     "static/media/boxicons.svg": "/soumen-portfolio/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
@@ -31,11 +31,11 @@
     "static/media/about-bg-shape.png": "/soumen-portfolio/static/media/about-bg-shape.0f5401ddbf4b438d8648.png",
     "index.html": "/soumen-portfolio/index.html",
     "static/media/offcanvas-bg.svg": "/soumen-portfolio/static/media/offcanvas-bg.88aeb9fe284881708dbd.svg",
-    "main.0e548bab.css.map": "/soumen-portfolio/static/css/main.0e548bab.css.map",
+    "main.28cc8d42.css.map": "/soumen-portfolio/static/css/main.28cc8d42.css.map",
     "main.4f464adf.js.map": "/soumen-portfolio/static/js/main.4f464adf.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e548bab.css",
+    "static/css/main.28cc8d42.css",
     "static/js/main.4f464adf.js"
   ]
 }
