@@ -1,6 +1,8 @@
 import React from 'react'
 
 function Footer() {
+
+  
   return (
     <>
     <section className='footer-section py-4 bg__dark'>
@@ -11,7 +13,6 @@ function Footer() {
             &copy; 2024. Designed by React. All right reserved.
             </p>
           </div>
-          
         </div>
       </div>
     </section>

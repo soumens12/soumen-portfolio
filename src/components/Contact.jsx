@@ -47,7 +47,7 @@ function Contact() {
   const links=[
     { id:1, href:"https://www.facebook.com/", label:'Facebook', icon: 'bx bxl-facebook'},
     { id:2, href:"https://x.com/soumens180", label:'Twitter', icon: 'bx bxl-twitter'},
-    { id:3, href:"www.linkedin.com/in/soumen-sarkar-685a84127", label:'LinkedIn', icon: 'bx bxl-linkedin'}
+    { id:3, href:"https://www.linkedin.com/in/soumen-sarkar-685a84127", label:'LinkedIn', icon: 'bx bxl-linkedin'}
   ]
 
   return (
