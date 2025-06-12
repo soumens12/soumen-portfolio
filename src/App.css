@@ -50,7 +50,7 @@ Hero section css
 }
 .hero__designation{
     font-size: 36px;
-    margin-bottom: 41px;
+    margin-bottom: 20px;
     font-weight: 300;
     color: #a9adb8;
 }
@@ -411,7 +411,13 @@ footer section css
 @media only screen and (max-width:991px){
   .hero__title
   {
-    font-size: 60px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .hero__designation
+  {
+    font-size: 26px;
+    line-height: 32px;
   }
   .about-shape:after
   {
@@ -419,7 +425,7 @@ footer section css
     background-size: contain;
   }
   .heading strong.filltext {
-    font-size: 60px;
+    font-size: 40px;
     top: -10%;
   }
   .project-list
@@ -431,5 +437,38 @@ footer section css
     width: 100%;
     overflow-x: auto;
     white-space: nowrap;
+  }
+  .heading h2
+  {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .heading h4
+  {
+    font-size: 26px;
+    line-height: 32px;
+  }
+ 
+  .navbar-nav li.nav-item + li.text-white
+  {
+    display: none;
+  }
+  section
+  {
+    padding: 40px 0;
+  }
+  .hero
+  {
+    padding-top: 80px;
+  }
+  .about-shape
+  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:480px){
+  .navbar-brand img{
+    max-width: 230px;
   }
 }
