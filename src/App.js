@@ -23,14 +23,14 @@ const App = () => {
       </nav>
        */}
 
-      <Header/>
+      <Header />
 
       <Home />
       <About />
       <Skill />
-      <Portfolio/>
+      <Portfolio />
       <Contact />
-      <Footer/>
+      <Footer />
     </Router>
   );
 };
