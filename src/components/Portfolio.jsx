@@ -41,7 +41,7 @@ function Portfolio() {
         { id: 17, name: "Pharmacy Template Design", image: uiD4, category: "UI Design", url: "https://xd.adobe.com/view/4df8a9e3-1b72-4ef2-b814-0aafa27ceb34-18ab/" },
         { id: 18, name: "Music Portfolio", image: ui11, category: "UI Development", url: "https://kamransdiary.com/" },
         { id: 19, name: "React Js Dashboard", image: ui12, category: "React UI", url: "https://react1dashboard.netlify.app/" },
-        { id: 19, name: "React MUI Dashboard", image: ui13, category: "React UI", url: "https://muidashboardsoumen.netlify.app/" },
+        { id: 20, name: "React MUI Dashboard", image: ui13, category: "React UI", url: "https://muidashboardsoumen.netlify.app/" },
 
     ];
 
