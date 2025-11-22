@@ -6,12 +6,16 @@ import logo from '../images/logo.png';
 
 function Header() {
   return (
-    <nav className="navbar navbar-dark fixed-top my-header">
+    <nav
+      className="navbar navbar-dark fixed-top my-header"
+      role="navigation"
+      aria-label="Main Navigation"
+    >
       <div className="container">
         <Link className="navbar-brand" to="home" smooth={true} duration={500}>
-          <img src={logo} alt="Logo image" />
+          <img src={logo} alt="Soumen Portfolio Logo" />
         </Link>
-        
+
         {/* Add Sidebar for mobile view */}
         <Sidebar />
 
@@ -19,25 +23,88 @@ function Header() {
         <div className="d-none d-lg-flex">
           <ul className="navbar-nav me-auto d-flex flex-row gap-4 align-items-center">
             <li className="nav-item">
-              <Link className="nav-link" to="home" smooth={true} duration={500} spy={true} activeClass="active" offset={-70}>Home</Link>
+              <Link
+                className="nav-link"
+                role="link"
+                tabIndex="0"
+                to="home"
+                smooth={true}
+                duration={500}
+                spy={true}
+                activeClass="active"
+                offset={-70}
+              >
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="about" smooth={true} duration={500} spy={true} activeClass="active" offset={-70}>About</Link>
+              <Link
+                className="nav-link"
+                role="link"
+                tabIndex="0"
+                to="about"
+                smooth={true}
+                duration={500}
+                spy={true}
+                activeClass="active"
+                offset={-70}
+              >
+                About
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="skills" smooth={true} duration={500} spy={true} activeClass="active" offset={-70}>Skills</Link>
+              <Link
+                className="nav-link"
+                role="link"
+                tabIndex="0"
+                to="skills"
+                smooth={true}
+                duration={500}
+                spy={true}
+                activeClass="active"
+                offset={-70}
+              >
+                Skills
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="portfolio" smooth={true} duration={500} spy={true} activeClass="active" offset={-70}>Portfolio</Link>
+              <Link
+                className="nav-link"
+                role="link"
+                tabIndex="0"
+                to="portfolio"
+                smooth={true}
+                duration={500}
+                spy={true}
+                activeClass="active"
+                offset={-70}
+              >
+                Portfolio
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="contact" smooth={true} duration={500} spy={true} activeClass="active" offset={-70}>Contact</Link>
+              <Link
+                className="nav-link"
+                role="link"
+                tabIndex="0"
+                to="contact"
+                smooth={true}
+                duration={500}
+                spy={true}
+                activeClass="active"
+                offset={-70}
+              >
+                Contact
+              </Link>
             </li>
-            <li className='text-white'>|</li>
+            <li className="text-white">|</li>
             <li>
-              <span className="header-call">
-                <i className='bx bx-phone text-white'></i> +91 891 081 8490
-              </span> 
+              <span
+                className="header-call"
+                aria-label="Call us at plus nine one eight nine one zero eight one eight four nine zero"
+              >
+                <i className="bx bx-phone text-white"></i> +91 891 081 8490
+              </span>
             </li>
           </ul>
         </div>
