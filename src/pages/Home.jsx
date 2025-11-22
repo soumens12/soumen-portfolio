@@ -29,7 +29,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-lg-5 mb-4 mb-lg-0" data-aos="fade-left">
-              <img src={ProfilePic} loading='lazy' className='img-fluid' alt="" />
+              <img src={ProfilePic} className='img-fluid' alt="" />
             </div>
           </div>
         </div>
