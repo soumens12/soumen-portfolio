@@ -1,6 +1,6 @@
 import React from 'react';
 import aboutImage from '../images/profile-pic.png';
-import resume from '../images/SoumenSarkarResume.pdf'
+import resume from "../images/resume.pdf";
 
 function AboutComp() {
 
