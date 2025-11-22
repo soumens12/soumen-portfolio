@@ -13,10 +13,10 @@ import ui11 from '../images/ui11.webp';
 import ui12 from '../images/ui12.webp';
 import ui13 from '../images/ui13.webp';
 
-import uiD1 from '../images/uiDesign1.png';
+import uiD1 from '../images/uiDesign1.webp';
 import uiD2 from '../images/uiDesign2.png';
-import uiD3 from '../images/uiDesign3.png';
-import uiD4 from '../images/uiDesign4.png';
+import uiD3 from '../images/uiDesign3.webp';
+import uiD4 from '../images/uiDesign4.webp';
 
 import reactUi from '../images/reactui.webp';
 import graphics from '../images/graphics.webp';
