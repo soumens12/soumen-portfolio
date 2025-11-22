@@ -43,7 +43,7 @@ Hero section css
 .hero__title {
   font-size: 120px;
   margin-bottom: 24px;
-  font-weight: 900;
+  font-weight: 700;
   color: #fdfeff;
   line-height: 1;
   font-family: var(--font-primary);
@@ -413,6 +413,10 @@ footer section css
   {
     font-size: 45px;
     line-height: 50px;
+    margin-bottom: 10px;
+  }
+  .hero__title br{
+    display: none;
   }
   .hero__designation
   {
@@ -459,7 +463,7 @@ footer section css
   }
   .hero
   {
-    padding-top: 80px;
+    padding-top: 120px;
   }
   .about-shape
   {

@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css'
-import Header from './components/Header';
+
+import Header from "./components/Header";
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Skill from './components/Skill';
-import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
+
+
+
+
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const Contact = lazy(() => import("./components/Contact"));
+const Skill = lazy(() => import("./components/Skill"));
+const Portfolio = lazy(() => import("./components/Portfolio"));
+
 
 
 const App = () => {
@@ -25,11 +31,14 @@ const App = () => {
 
       <Header />
 
-      <Home />
-      <About />
-      <Skill />
-      <Portfolio />
-      <Contact />
+      <Suspense fallback={<div className='text-white d-flex justify-content-center align-items-center'>Loading...</div>}>
+        <Home />
+        <About />
+        <Skill />
+        <Portfolio />
+        <Contact />
+      </Suspense>
+
       <Footer />
     </Router>
   );

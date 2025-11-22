@@ -9,7 +9,7 @@ function AboutComp() {
             <div className="row align-items-center">
                 <div className="col-lg-5">
                     <div className='about-shape'>
-                        <img src={aboutImage} alt="about-image" className='img-fluid' />
+                        <img loading='lazy' src={aboutImage} alt="about-image" className='img-fluid' />
                     </div>
                 </div>
                 <div className="col-lg-6 offset-lg-1">

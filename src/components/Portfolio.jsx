@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
-import ui1 from '../images/ui1.png';
-import ui2 from '../images/ui2.png';
-import ui3 from '../images/ui3.png';
-import ui4 from '../images/ui4.png';
-import ui5 from '../images/ui5.png';
+import React, { useMemo, useState } from 'react';
+import ui1 from '../images/ui1.webp';
+import ui2 from '../images/ui2.webp';
+import ui3 from '../images/ui3.webp';
+import ui4 from '../images/ui4.webp';
+import ui5 from '../images/ui5.webp';
 import ui6 from '../images/ui6.png';
 import ui7 from '../images/ui7.png';
 import ui8 from '../images/ui8.png';
-import ui9 from '../images/ui9.png';
-import ui10 from '../images/ui10.png';
-import ui11 from '../images/ui11.png';
-import ui12 from '../images/ui12.png';
-import ui13 from '../images/ui13.png';
+import ui9 from '../images/ui9.webp';
+import ui10 from '../images/ui10.webp';
+import ui11 from '../images/ui11.webp';
+import ui12 from '../images/ui12.webp';
+import ui13 from '../images/ui13.webp';
 
 import uiD1 from '../images/uiDesign1.png';
 import uiD2 from '../images/uiDesign2.png';
 import uiD3 from '../images/uiDesign3.png';
 import uiD4 from '../images/uiDesign4.png';
 
-import reactUi from '../images/reactui.png';
-import graphics from '../images/graphics.png';
+import reactUi from '../images/reactui.webp';
+import graphics from '../images/graphics.webp';
 
 function Portfolio() {
     const projects = [
@@ -50,10 +50,13 @@ function Portfolio() {
         setSelectedCategory(category);
     };
 
-    const filteredProjects =
-        selectedCategory === "All"
-            ? projects
-            : projects.filter(project => project.category === selectedCategory);
+    const filteredProjects=useMemo(()=>{
+        return selectedCategory === "All"
+          ? projects
+          : projects.filter((project) => project.category === selectedCategory);
+    }, [selectedCategory])
+    
+        
     return (
         <>
             <section id='portfolio' className='portfolio-section bg__dark'>
@@ -95,9 +98,10 @@ function Portfolio() {
                                     <div key={project.id} className="card bg-transparent mb-3">
                                         <div className="card-body">
                                             <div className='mb-3 project__image'>
-                                                <img src={project.image} className='img-fluid' alt="" />
+                                                <img src={project.image} loading='lazy' className='img-fluid' alt="" />
                                                 <a className='project-details-btn' rel="noopener noreferrer" href={project.url} target="_blank">
                                                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="remixicon "><path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path></svg>
+                                                    <span className='visually-hidden'>details btn</span>
                                                 </a>
                                             </div>
                                             <h5 className="card-title">{project.name}</h5>

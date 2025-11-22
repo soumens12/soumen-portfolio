@@ -9,7 +9,7 @@ function Header() {
     <nav className="navbar navbar-dark fixed-top my-header">
       <div className="container">
         <Link className="navbar-brand" to="home" smooth={true} duration={500}>
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo image" />
         </Link>
         
         {/* Add Sidebar for mobile view */}
