@@ -12,6 +12,9 @@ import ui10 from '../images/ui10.webp';
 import ui11 from '../images/ui11.webp';
 import ui12 from '../images/ui12.webp';
 import ui13 from '../images/ui13.webp';
+import ui14 from "../images/ui14.webp";
+import ui15 from "../images/ui15.webp";
+import ui16 from "../images/ui16.webp";
 
 import uiD1 from '../images/uiDesign1.webp';
 import uiD2 from '../images/uiDesign2.png';
@@ -23,27 +26,163 @@ import graphics from '../images/graphics.webp';
 
 function Portfolio() {
     const projects = [
-        { id: 1, name: "Payment Gateway Website", image: ui1, category: "UI Development", url: "https://www.atlpay.com/" },
-        { id: 2, name: "ATLPay template Design", image: uiD1, category: "UI Design", url: "https://xd.adobe.com/view/a44aa078-5421-45d8-9bf4-623be0c1f0b1-f119/" },
-        { id: 3, name: "Graphics Design", image: graphics, category: "Graphics Design", url: "https://soumenswork.blogspot.com/" },
-        { id: 5, name: "Property Booking Website", image: reactUi, category: "React UI", url: "https://dynamic-centaur-04fe5c.netlify.app/" },
-        { id: 6, name: "TRIBES Website", image: ui2, category: "UI Development", url: "https://www.tribeww.in/" },
-        { id: 7, name: "ATLMoney Website", image: ui3, category: "UI Development", url: "https://www.atlmoney.com/" },
-        { id: 8, name: "Digital Banking Service Website", image: ui4, category: "UI Development", url: "https://stableone.co.uk/" },
-        { id: 9, name: "Fintech Solution Website", image: ui5, category: "UI Development", url: "https://www.agpaytech.com/" },
-        { id: 10, name: "Digital Service Provider", image: ui6, category: "UI Development", url: "https://revitaas.com/" },
-        { id: 11, name: "Remmitance Solutions", image: ui7, category: "UI Development", url: "https://remitall.co.uk/" },
-        { id: 12, name: "CryptoCurrency Solutions", image: ui8, category: "UI Development", url: "https://soumens12.github.io/bitwari.github.io/" },
-        { id: 13, name: "Sports Website", image: ui9, category: "UI Development", url: "https://soumens12.github.io/Iconymo/" },
-        { id: 14, name: "Online Pharmacy (Tailwind CSS)", image: ui10, category: "UI Development", url: "https://medibull.com/" },
-        { id: 15, name: "KYC Lookup UI template", image: uiD2, category: "UI Design", url: "https://xd.adobe.com/view/50f4f717-b3a2-4a26-82e7-9d3323ca43a0-05a7/" },
-        { id: 16, name: "ATL Properties Template", image: uiD3, category: "UI Design", url: "https://xd.adobe.com/view/53754b13-32f7-4a9a-9a25-b02de08878f4-0626/" },
-        { id: 17, name: "Pharmacy Template Design", image: uiD4, category: "UI Design", url: "https://xd.adobe.com/view/4df8a9e3-1b72-4ef2-b814-0aafa27ceb34-18ab/" },
-        { id: 18, name: "Music Portfolio", image: ui11, category: "UI Development", url: "https://kamransdiary.com/" },
-        { id: 19, name: "React Js Dashboard", image: ui12, category: "React UI", url: "https://react1dashboard.netlify.app/" },
-        { id: 20, name: "React MUI Dashboard", image: ui13, category: "React UI", url: "https://muidashboardsoumen.netlify.app/" },
-
+      {
+        id: 1,
+        name: "Payment Gateway Website",
+        image: ui1,
+        category: "UI Development",
+        url: "https://www.atlpay.com/",
+      },
+      {
+        id: 2,
+        name: "ATLPay template Design",
+        image: uiD1,
+        category: "UI Design",
+        url: "https://xd.adobe.com/view/a44aa078-5421-45d8-9bf4-623be0c1f0b1-f119/",
+      },
+      {
+        id: 3,
+        name: "Graphics Design",
+        image: graphics,
+        category: "Graphics Design",
+        url: "https://soumenswork.blogspot.com/",
+      },
+      {
+        id: 5,
+        name: "Property Booking Website",
+        image: reactUi,
+        category: "React UI",
+        url: "https://dynamic-centaur-04fe5c.netlify.app/",
+      },
+      {
+        id: 6,
+        name: "TRIBES Website",
+        image: ui2,
+        category: "UI Development",
+        url: "https://www.tribeww.in/",
+      },
+      {
+        id: 7,
+        name: "ATLMoney Website",
+        image: ui3,
+        category: "UI Development",
+        url: "https://www.atlmoney.com/",
+      },
+      {
+        id: 8,
+        name: "Digital Banking Service Website",
+        image: ui4,
+        category: "UI Development",
+        url: "https://stableone.co.uk/",
+      },
+      {
+        id: 9,
+        name: "Fintech Solution Website",
+        image: ui5,
+        category: "UI Development",
+        url: "https://www.agpaytech.com/",
+      },
+      {
+        id: 10,
+        name: "Digital Service Provider",
+        image: ui6,
+        category: "UI Development",
+        url: "https://revitaas.com/",
+      },
+      {
+        id: 11,
+        name: "Remmitance Solutions",
+        image: ui7,
+        category: "UI Development",
+        url: "https://remitall.co.uk/",
+      },
+      {
+        id: 12,
+        name: "CryptoCurrency Solutions",
+        image: ui8,
+        category: "UI Development",
+        url: "https://soumens12.github.io/bitwari.github.io/",
+      },
+      {
+        id: 13,
+        name: "Sports Website",
+        image: ui9,
+        category: "UI Development",
+        url: "https://soumens12.github.io/Iconymo/",
+      },
+      {
+        id: 14,
+        name: "Online Pharmacy (Tailwind CSS)",
+        image: ui10,
+        category: "UI Development",
+        url: "https://medibull.com/",
+      },
+      {
+        id: 15,
+        name: "KYC Lookup UI template",
+        image: uiD2,
+        category: "UI Design",
+        url: "https://xd.adobe.com/view/50f4f717-b3a2-4a26-82e7-9d3323ca43a0-05a7/",
+      },
+      {
+        id: 16,
+        name: "ATL Properties Template",
+        image: uiD3,
+        category: "UI Design",
+        url: "https://xd.adobe.com/view/53754b13-32f7-4a9a-9a25-b02de08878f4-0626/",
+      },
+      {
+        id: 17,
+        name: "Pharmacy Template Design",
+        image: uiD4,
+        category: "UI Design",
+        url: "https://xd.adobe.com/view/4df8a9e3-1b72-4ef2-b814-0aafa27ceb34-18ab/",
+      },
+      {
+        id: 18,
+        name: "Music Portfolio",
+        image: ui11,
+        category: "UI Development",
+        url: "https://kamransdiary.com/",
+      },
+      {
+        id: 19,
+        name: "Next Js Ecommerce website",
+        image: ui16,
+        category: "React UI",
+        url: "https://react-ecommercess.netlify.app/",
+      },
+      {
+        id: 20,
+        name: "React MUI Dashboard",
+        image: ui13,
+        category: "React UI",
+        url: "https://muidashboardsoumen.netlify.app/",
+      },
+      {
+        id: 21,
+        name: "React E-Learning Platform",
+        image: ui14,
+        category: "React UI",
+        url: "https://es-learning.netlify.app/",
+      },
+      {
+        id: 22,
+        name: "Next Js Ecommerce website",
+        image: ui15,
+        category: "React UI",
+        url: "https://next-ecommerce-soumen.vercel.app/",
+      },
+      {
+        id: 23,
+        name: "React Js Dashboard",
+        image: ui12,
+        category: "React UI",
+        url: "https://react1dashboard.netlify.app/",
+      },
     ];
+
+     projects.splice(3, 1)
 
     const [selectedCategory, setSelectedCategory] = useState("All");
     const handleFilterChange = (category) => {
